@@ -757,7 +757,7 @@ export const GooglePlacesAutocomplete = forwardRef((props, ref) => {
       listViewDisplayed === true
     ) {
       return (
-        <FlatList
+        <ScrollView
           nativeID='result-list-id'
           scrollEnabled={!props.disableScroll}
           style={[
