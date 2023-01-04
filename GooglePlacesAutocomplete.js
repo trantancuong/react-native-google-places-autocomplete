@@ -620,8 +620,8 @@ export const GooglePlacesAutocomplete = forwardRef((props, ref) => {
           props.isRowScrollable ? { minWidth: '100%' } : { width: '100%' }
         }
         scrollEnabled={props.isRowScrollable}
-        keyboardShouldPersistTaps={props.keyboardShouldPersistTaps}
-        horizontal={true}
+        keyboardShouldPersistTaps="handled"
+        horizontal
         showsHorizontalScrollIndicator={false}
         showsVerticalScrollIndicator={false}
       >
